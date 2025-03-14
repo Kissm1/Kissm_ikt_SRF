@@ -3,16 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>táblázat</title>
+    <title>orarendem</title>
     <style>
         td{
             text-align: center;
         }
-        table, td, tr{
-            border: 2px solid;
+        table, td, tr, th{
+            border: 2px solid black;
             border-collapse: collapse;
         }
+        table{
+            width: 80%;
+            height: 450px;
+        }
+        tr :hover{
+            background-color: aqua;
+        }
+        tr:first-child {
+            background-color: darkblue;
+            color: rgb(255, 255, 255);
+            font-size: 1.2em;
+            padding: 10vh 10vw;
+        }
 
+        td{
+            background-color: rgb(167, 214, 255);
+        }
     </style>
 </head>
 <body>
@@ -26,27 +42,28 @@
         <br>
         <table style="margin: auto;" >
             <tr>
-                <td> <hr></td>
-                <td><b>hétfő</b></td>
-                <td><b>kedd</b></td>
-                <td><b>szerda</b></td>
-                <td><b>csütörtök</b></td>
-                <td><b>péntek</b></td>
+                <th></th>
+                <th><b>hétfő</b></th>
+                <th><b>kedd</b></th>
+                <th><b>szerda</b></th>
+                <th><b>csütörtök</b></th>
+                <th><b>péntek</b></th>
             </tr>
             <tr>
                 <td>0. óra</td>
                 <td rowspan="2">tesi</td>
-                <td><hr></td>
+                <td</td>
                 <td rowspan="2">Digitális kultúra</td>
-                <td><hr></td>
-                <td>Osztályfőnöki</td>
+                <td></td>
+                <td></td>
+                <td>Osztályfőnoki</td>
             </tr>
             <tr>
                 <td>1. óra</td>
                 
                 <td>angol</td>
                 
-                <td><hr></td>
+                <td></td>
                 <td>Matematika</td>
             </tr>
             <tr>
@@ -91,19 +108,19 @@
             </tr>
             <tr>
                 <td>7. óra</td>
-                <td><hr></td>
+                <td></td>
                 <td>Magyar</td>
                 
                 <td rowspan="2">honvéd</td>
-                <td><hr></td>
+                <td></td>
             </tr>
             <tr>
                 <td>8. óra</td>
-                <td><hr></td>
-                <td><hr></td>
-                <td><hr></td>
+                <td></td>
+                <td></td>
+                <td></td>
                 
-                <td><hr></td>
+                <td></td>
             </tr>
         </table>
 </body>
