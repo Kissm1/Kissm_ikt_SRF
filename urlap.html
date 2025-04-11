@@ -21,7 +21,7 @@
                 <br><br>
                 <label for="email">E-mail: </label><input type="email" name="email" id="email" placeholder="valami@gmail.com" required>
                 <br><br>
-                <label for="tel">Telefonszám: </label><input type="number" name="telefon" id="tel" required>
+                <label for="tel">Telefonszám: </label><input type="tel" name="telefon" id="tel" required>
                 <br><br>
                 <label for="cim">Lakcím: </label><input type="text" name="cim" id="cim" required>
 
@@ -50,7 +50,8 @@
                 <br><br>
                 <label for="uzenet">Üzenet a szakácsnak:</label><br>
                 <textarea name="uzenet" id="uzenet" cols="30" rows="10"></textarea><br>
-                <input type="submit" value="Küldés">
+                <input type="button" value="Küldés" onclick="alert('köszönjük a megrendelését')">
+                <button type="reset">Törlés</button>
             </fieldset>
       </form> 
 </body>
